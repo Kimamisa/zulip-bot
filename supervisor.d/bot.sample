@@ -1,0 +1,4 @@
+[program:bot_name]
+command=/usr/local/bin/zulip-run-bot /bots/<bot_name>/<bot_name>.py --config-file /bots/<bot_name>/zuliprc
+autorestart=true
+priority=30

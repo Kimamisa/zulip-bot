@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  zulip-bot:
+    build: .
+    volumes:
+      - ./bots:/bots
+      - ./supervisor.d:/etc/supervisor.d
